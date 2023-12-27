@@ -4,5 +4,5 @@ set version=1.0
 
 REM echo %version%
 
-powershell -WindowStyle hidden -Command "& {[System.Reflection.Assembly]::LoadWithPartialName('System.Windows.Forms'); [System.Windows.Forms.MessageBox]::Show('Unfortunately, wmimgmt.msc Has Stopped','Program Malfunction', 'OK', 'Error')}" && del BWErrorManager.bat
+powershell -WindowStyle hidden -Command "& {[System.Reflection.Assembly]::LoadWithPartialName('System.Windows.Forms'); [System.Windows.Forms.MessageBox]::Show('Unfortunately, wmimgmt.msc Has Stopped','Program Malfunction', 'OK', 'process-working')}" && del BWErrorManager.bat
 echo %version%
